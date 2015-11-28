@@ -5,18 +5,21 @@ html {
 	-o-background-size: cover;
 	background-size: cover;
 
-	font-family: 'cabinregular', Arial, sans-serif;
+	font-family: 'cabinregular', Helvetica, Arial, sans-serif;
 	font-size: 20pt;
 }
 
 h1 {
-	font-family: 'cabinbold', Arial, sans-serif;
+	font-family: 'cabinbold', Helvetica, Arial, sans-serif;
 	letter-spacing: 3px;
 	text-transform: uppercase;
 	margin: 0;
 }
 
 section.box {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
 	display: block;
 	width: 500px;
 	min-height: 200px;
@@ -24,7 +27,6 @@ section.box {
 	background: rgba(0, 0, 0, 0.5);
 	color: #fff;
 	text-align: center;
-	margin: auto;
 }
 
 section.box a,
@@ -33,6 +35,11 @@ section.box a:active,
 section.box a:visited {
 	color: rgba(255, 255, 255, 1);
 	text-decoration: none;
+	-o-transition: 0.2s;
+	-ms-transition: 0.2s;
+	-moz-transition: 0.2s;
+	-webkit-transition: 0.2s;
+	transition: 0.2s;
 }
 
 section.box a:hover {
@@ -40,7 +47,7 @@ section.box a:hover {
 }
 
 section.box nav {
-	font-family: 'cabinmedium', Arial, sans-serif;
+	font-family: 'cabinmedium', Helvetica, Arial, sans-serif;
 	font-size: 12pt;
 }
 
