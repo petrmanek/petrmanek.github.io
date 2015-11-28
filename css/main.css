@@ -1,0 +1,11 @@
+html {
+	background: url(/img/pm.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+	font-family: cabinregular Arial sans-serif;
+	font-size: 20pt;
+}
+
