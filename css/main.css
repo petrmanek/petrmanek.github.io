@@ -5,20 +5,50 @@ html {
 	-o-background-size: cover;
 	background-size: cover;
 
-	font-family: 'cabinregular';
+	font-family: 'cabinregular', Arial, sans-serif;
 	font-size: 20pt;
 }
 
 h1 {
-	font-family: 'cabinbold';
+	font-family: 'cabinbold', Arial, sans-serif;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	margin: 0;
 }
 
 section.box {
 	display: block;
 	width: 500px;
 	min-height: 200px;
+	padding: 25px 20px;
 	background: rgba(0, 0, 0, 0.5);
 	color: #fff;
 	text-align: center;
 	margin: auto;
+}
+
+section.box a,
+section.box a:hover,
+section.box a:active,
+section.box a:visited {
+	color: rgba(255, 255, 255, 1);
+	text-decoration: none;
+}
+
+section.box a:hover {
+	color: rgba(255, 255, 255, 0.7);
+}
+
+section.box nav {
+	font-family: 'cabinmedium', Arial, sans-serif;
+	font-size: 12pt;
+}
+
+section.box nav a {
+	text-transform: uppercase;
+	margin-left: 20px;
+}
+
+section.box nav a:first-child {
+	margin-left: 0;
 }
