@@ -5,7 +5,20 @@ html {
 	-o-background-size: cover;
 	background-size: cover;
 
-	font-family: cabinregular, Arial, sans-serif;
+	font-family: 'cabinregular';
 	font-size: 20pt;
 }
 
+h1 {
+	font-family: 'cabinbold';
+}
+
+section.box {
+	display: block;
+	width: 500px;
+	min-height: 200px;
+	background: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	text-align: center;
+	margin: auto;
+}
